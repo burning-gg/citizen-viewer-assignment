@@ -1,0 +1,14 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  background: var(--primary) !important;
+}
+
+.footer-title {
+  color: var(--white);
+  font-size: var(--fontSmall);
+  font-weight: 700;
+}

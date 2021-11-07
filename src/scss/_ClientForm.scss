@@ -1,0 +1,35 @@
+.form-client-main {
+  display: grid;
+  grid-template-areas: 
+    "location location"
+    "phone email"
+    "name name";
+  grid-template-columns: 170px 1fr;
+}
+
+.form-client-phone {
+  grid-area: phone;
+  margin-right: 10px !important;
+}
+
+.form-client-email {
+  grid-area: email;
+}
+
+.form-client-name {
+  grid-area: name;
+}
+
+.location-name {
+  grid-area: location;
+  margin-bottom: 20px;
+  font-size: var(--fontMed);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .form-client-main {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,109 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px var(--lightGrey) solid;
+  border-radius: var(--borderRadius);
+}
+
+.address-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fontBig);
+}
+
+.add-client-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 30px auto 10px;
+  cursor: pointer;
+}
+
+.add-client-icon > svg:hover {
+  color: var(--primary);
+  transition: all .2s ease 0s;
+}
+
+.add-client-icon > svg:active {
+  transform: scale(0.94);
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px !important;
+  margin: 20px 10px 0 10px !important;
+}
+
+.client-card .ant-card-body {
+  display: flex;
+}
+
+.client-card .ant-card-actions {
+  margin-top: auto !important;
+}
+
+.client-card .ant-card-actions li:active {
+  transform: scale(0.94);
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary) !important;
+}
+
+.card-icon > svg {
+  height: 40px;
+  width: 40px;
+}
+
+.card-content {
+  margin-left: 10px;
+}
+
+.client-name {
+  font-weight: 700;
+  font-size: var(--fontSmall);
+}
+
+.client-phone {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.phone-icon {
+  margin-right: 10px;
+}
+
+.client-email {
+  font-weight: 600;
+}
+
+.email-icon {
+  margin-right: 10px;
+}
+
+.ant-card-actions {
+  background: var(--light) !important;
+}
+
+@media screen and (max-width: 425px) {
+  .main-content {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .address-name {
+    font-size: var(--fontMed);
+  }
+}

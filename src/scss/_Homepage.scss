@@ -1,0 +1,21 @@
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  background: var(--lightGrey) !important;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 200px);
+  width: var(--maxWidth);
+  margin: 30px;
+  background: var(--white) !important;
+  border-radius: var(--borderRadius);
+}
+
+@media screen and (max-width: 425px) {
+  .main-container {
+    width: 300px;
+  }
+}

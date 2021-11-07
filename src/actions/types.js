@@ -1,0 +1,16 @@
+export const SET_ALERT = 'SET_ALERT'
+export const REMOVE_ALERT = 'REMOVE_ALERT'
+
+export const GET_STREETS = 'GET_STREETS'
+export const GET_HOUSES = 'GET_HOUSES'
+export const GET_FLATS = 'GET_FLATS'
+export const SET_LOCATION = 'SET_LOCATION'
+export const SET_ADDRESS_ID = 'SET_ADDRESS_ID'
+export const CLEAR_STREETS = 'CLEAR_STREETS'
+export const CLEAR_HOUSES = 'CLEAR_HOUSES'
+export const CLEAR_FLATS = 'CLEAR_FLATS'
+
+export const GET_CLIENTS = 'GET_CLIENTS'
+export const ADD_CLIENT = 'ADD_CLIENT'
+export const UPDATE_CLIENT = 'UPDATE_CLIENT'
+export const DELETE_CLIENT = 'DELETE_CLIENT'

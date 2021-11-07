@@ -1,0 +1,36 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px var(--lightGrey) solid;
+  border-radius: var(--borderRadius);
+}
+
+.select-title {
+  font-size: var(--fontBig);
+}
+
+.select-street {
+  min-width: 250px;
+}
+
+.select-house {
+  min-width: 100px;
+}
+
+.select-flat {
+  min-width: 150px;
+}
+
+@media screen and (max-width: 425px) {
+  .select-container {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .select-title {
+    font-size: var(--fontMed);
+  }
+}

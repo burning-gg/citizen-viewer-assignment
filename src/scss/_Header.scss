@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 70px !important;
+  width: 100%;
+  background: var(--primary) !important;
+}
+
+.header-title {
+  margin-left: 30px;
+  color: var(--white);
+  font-size: var(--fontBig);
+  font-weight: 700;
+}
+
+.header-subtitle {
+  margin: 0 30px 0 auto;
+  color: var(--white);
+  font-size: var(--fontMed);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 425px) {
+  .header-title {
+    font-size: var(--fontMed);
+    margin: 0;
+  }
+
+  .header-subtitle {
+    font-size: var(--fontSmall);
+    margin: 0 0 0 auto;
+  }
+}

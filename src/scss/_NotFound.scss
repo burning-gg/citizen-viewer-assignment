@@ -1,0 +1,9 @@
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  font-size: var(--fontMed);
+  font-weight: 500;
+  gap: 10px;
+}
