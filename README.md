@@ -2,6 +2,36 @@
 
 Citizen Viewer with React, Ant Design, Redux, Redux-thunk
 
+# Screenshots
+
+## Search citizens
+
+[![screen-2-1.jpg](https://i.postimg.cc/90T5JgWK/screen-2-1.jpg)](https://postimg.cc/9wWnfpwY)
+
+[![screen-2-2.jpg](https://i.postimg.cc/Gmbwxj6g/screen-2-2.jpg)](https://postimg.cc/w74G6DqD)
+
+[![screen-2-3.jpg](https://i.postimg.cc/Gmz07yCL/screen-2-3.jpg)](https://postimg.cc/MncrXXHN)
+
+[![screen-2-4.jpg](https://i.postimg.cc/43FDZRyj/screen-2-4.jpg)](https://postimg.cc/8FMKB3hb)
+
+## Add citizen
+
+[![screen-2-5.jpg](https://i.postimg.cc/ZYNGkgSD/screen-2-5.jpg)](https://postimg.cc/SjyTCgjW)
+
+[![screen-2-6.jpg](https://i.postimg.cc/q7gF1Dww/screen-2-6.jpg)](https://postimg.cc/Ff5GRZ2k)
+
+## Delete citizen
+
+[![screen-2-7.jpg](https://i.postimg.cc/NF8CK3Gs/screen-2-7.jpg)](https://postimg.cc/tnTNfmVw)
+
+[![screen-2-8.jpg](https://i.postimg.cc/kMWpYbQ0/screen-2-8.jpg)](https://postimg.cc/Dmy68mY6)
+
+## Delete citizen
+
+[![screen-2-9.jpg](https://i.postimg.cc/y8pQ3XKZ/screen-2-9.jpg)](https://postimg.cc/cvYMV3rx)
+
+[![screen-2-10.jpg](https://i.postimg.cc/sxzwCTYt/screen-2-10.jpg)](https://postimg.cc/62HddL10)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
